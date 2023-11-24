@@ -1,16 +1,39 @@
-# livros
+# Livros App
 
-A new Flutter project.
+## Descrição
 
-## Getting Started
+O **Livros App** é um aplicativo Flutter projetado para permitir que os usuários acessem uma lista de livros, visualizem suas capas, realizem o download dos livros e leiam o conteúdo utilizando o plugin [Vocsy Epub Viewer](https://pub.dev/packages/vocsy_epub_viewer). Além disso, inclui recursos de favoritos e uma interface intuitiva para melhorar a experiência do usuário.
 
-This project is a starting point for a Flutter application.
+## Funcionalidades
 
-A few resources to get you started if this is your first Flutter project:
+1. **Baixar Lista de Livros e Capas:**
+   - O aplicativo acessa uma API para baixar uma lista atualizada de livros e suas capas.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. **Estante de Livros:**
+   - Exibe as capas dos livros baixados de forma organizada em uma estante virtual.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. **Download e Armazenamento de Livros:**
+   - Permite que o usuário baixe um livro ao tocar em sua capa e salve o arquivo no dispositivo.
+
+4. **Exibição de Livros:**
+   - Utiliza o plugin [Vocsy Epub Viewer](https://pub.dev/packages/vocsy_epub_viewer) para exibir o conteúdo do livro.
+
+5. **Navegação de Interface:**
+   - Inclui um botão para que o usuário possa retornar facilmente à estante de livros durante a leitura.
+
+6. **Favoritos (feature bônus):**
+   - Cria uma aba de favoritos acima do app.
+   - Ao tocar em Favoritos, são exibidos apenas os livros favoritos.
+   - Para favoritar um livro, na estante inicial, o usuário toca no marcador no canto superior direito.
+   - Essa informação é persistida para quando o usuário voltar para o app.
+   - Em um livro favorito, o marcador aparece em vermelho. Se tocar no marcador já acionado, ele apaga, e o livro é removido da lista de favoritos.
+
+## Como Executar o Projeto
+
+### Pré-requisitos
+
+Certifique-se de ter o Flutter e o Dart instalados em sua máquina.
+
+```bash
+# Instale as dependências do projeto
+flutter pub get
