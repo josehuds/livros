@@ -31,7 +31,7 @@ Pré-requisitos:
     bash
 
     # Clone o repositório
-    git clone https://github.com/seu-usuario/livrosapp.git
+    git clone https://github.com/josehuds/livros.git
 
     # Navegue até o diretório do projeto
     cd livrosapp
