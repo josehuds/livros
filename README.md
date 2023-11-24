@@ -12,15 +12,6 @@ O **Livros App** é um aplicativo Flutter projetado para permitir que os usuári
 2. **Estante de Livros:**
    - Exibe as capas dos livros baixados de forma organizada em uma estante virtual.
 
-3. **Download e Armazenamento de Livros:**
-   - Permite que o usuário baixe um livro ao tocar em sua capa e salve o arquivo no dispositivo.
-
-4. **Exibição de Livros:**
-   - Utiliza o plugin [Vocsy Epub Viewer](https://pub.dev/packages/vocsy_epub_viewer) para exibir o conteúdo do livro.
-
-5. **Navegação de Interface:**
-   - Inclui um botão para que o usuário possa retornar facilmente à estante de livros durante a leitura.
-
 6. **Favoritos (feature bônus):**
    - Cria uma aba de favoritos acima do app.
    - Ao tocar em Favoritos, são exibidos apenas os livros favoritos.
